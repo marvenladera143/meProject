@@ -1,13 +1,45 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" href="css/style.css">
-<title>Page Title</title>
+	<meta charset="utf-8">
+	<title>Attendance Tracker</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
+	<form>
+		<table>
+			<tr>
+				<td>ID</td>
+				<td><input form = ID> </td>
+			</tr>
+			<tr>
+				<td>First Name:</td>
+				<td><input type ="string"></td>
+			</tr>
+			<tr>
+				<td>Last Name:</td>
+				<td><input type ="string"> </td>
+					
+			</tr>
+			<tr>
+				<td><button type = "Submit">Search</button></td>
+			</tr>
 
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
+			<tr>
+			
+			</tr>
 
+		</table>
+	</form>
+			<table>
+				<div class ="booth">
+					<video id = "video" width = "400" height = "300"></video>
+					<a href="#" id="capture" class="captureButton">Take Photo</a>
+					<canvas id="canvas" width="400" height="300"></canvas>
+				</div>
+			</table>
+		<script src ="photo.js"></script>
+	
+		
 </body>
-</html>
+</html>		
